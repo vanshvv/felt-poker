@@ -1,0 +1,17 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+
+# build / tooling caches
+.vite
+*.tsbuildinfo
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Generated session report — contains real player names and results
+ledger-report.html

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="felt" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#1c5c3c"/>
+      <stop offset="100%" stop-color="#0a2a1b"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#felt)"/>
+  <!-- poker chip -->
+  <g transform="translate(256 256)">
+    <circle r="176" fill="#c62828"/>
+    <circle r="176" fill="none" stroke="#f4e6c8" stroke-width="10"/>
+    <circle r="128" fill="none" stroke="#f4e6c8" stroke-width="14" stroke-dasharray="40 42"/>
+    <circle r="96" fill="#0a2a1b"/>
+    <circle r="96" fill="none" stroke="#e7c974" stroke-width="8"/>
+    <!-- spade -->
+    <path fill="#f4e6c8" transform="translate(0 6) scale(1.05)"
+      d="M0 -66 C 34 -30 62 -12 62 18 C 62 44 42 58 22 58 C 12 58 4 54 0 46 C -4 54 -12 58 -22 58 C -42 58 -62 44 -62 18 C -62 -12 -34 -30 0 -66 Z M -12 52 C -12 66 -18 74 -30 82 L 30 82 C 18 74 12 66 12 52 Z"/>
+  </g>
+</svg>
